@@ -8,39 +8,7 @@
     <!-- icon bar -->
     <link rel="shortcut icon" href="imgs/logo.png" type="image/logo.png">
     <style>
-        /* *{
-            margin: 0px;
-            padding: 0px;
-            box-sizing: border-box;
-        }
-    
-.header {
-    height: px;
-    width: ;
-    font-size: 3rem;
-    background-image: url('../imgs/header.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 972px;
-    position: fixed;
-}
-.container-navbar {
-    width: 1296px;
-    height: 76px;
-    margin: 20px auto 0px auto;
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid gray;
-    font-size: 1.2rem;
-    align-items: flex-start;
-    padding: .8rem;
-    align-content: space-around;
-}
-img{
-    font-size:;
-} */
+ 
 *{
     margin: 0px;
     padding: 0px;
@@ -66,7 +34,6 @@ img{
     width: 1090px;
     margin-left: 450px;
     margin-top: 37px;
-    /* margin: 450px 37px 10px 20px; */
     align-content: space-between;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -114,7 +81,6 @@ h2{
 }
 h1{
     text-align: center;
-    /* margin-top: 23px; */
     margin-bottom: 40px;
     font-size:calc(40px + (90 - 40) * ((100vw - 320px)/ (1200 - 320))) ;
     color: white;
@@ -152,8 +118,6 @@ div.main {
 }
 
 #div-2 a{
-    /* height: 20px;
-    width: 20px; */
     text-align: center;
     padding: 12px 40px 16px 40px;
     background-color:none;
@@ -168,6 +132,9 @@ div.main {
     color: black;
     font-size: 17px;
 }
+div.parents{
+    margin: 2px auto 2px auto;
+}
 
 
 
@@ -178,35 +145,31 @@ div.main {
     </style>
 </head>
 <body>   
-    <body cz-shortcut-listen="true">
-
-        <header class="header">
-            <nav class="container-navbar">
-                <div class="log">
-                    <a href="#"><img src="./imgs/logo.png" alt="logo"></a>
-                </div>
-                <ul class="menu">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Service</a></li>
-                    <li><a href="">Portfolio</a></li>
-                    <li><a href="">Team</a></li>
-                    <li><a href="">Testimonial</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Conatct</a></li>
-                    <li><a id="componets" class="btn" href="">Components</a></li>
-                </ul>
-            </nav>
-                <h2>Small Team With Big Ideas</h2>                
-                <h1>Creative Studio</h1> 
-                <div class="main">
-                    <div id="div-1"><a href="">Our Service</a></div>
-                    <div id="div-2"><a href="">contact us</a></div>
-                </div>                 
-                    
-                
-            
-                
-    </body>
+    
+        <div class="parents">
+            <header class="header">
+                <nav class="container-navbar">
+                    <div class="log">
+                        <a href="#"><img src="./imgs/logo.png" alt="logo"></a>
+                    </div>
+                    <ul class="menu">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Service</a></li>
+                        <li><a href="">Portfolio</a></li>
+                        <li><a href="">Team</a></li>
+                        <li><a href="">Testimonial</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Conatct</a></li>
+                        <li><a id="componets" class="btn" href="">Components</a></li>
+                    </ul>
+                </nav>
+                    <h2>Small Team With Big Ideas</h2>                
+                    <h1>Creative Studio</h1> 
+                    <div class="main">
+                        <div id="div-1"><a href="">Our Service</a></div>
+                        <div id="div-2"><a href="">contact us</a></div>
+                    </div> 
+        </div>
 </body>
 </html>
