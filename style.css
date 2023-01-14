@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>html template</title>
-    <!-- icon bar -->
-    <link rel="shortcut icon" href="imgs/logo.png" type="image/logo.png">
-    <link rel="stylesheet" href="style.css">
-    <style>
- 
-/* *{
+*{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -135,42 +123,4 @@ div.main {
 }
 div.parents{
     margin: 2px auto 2px auto;
-} */
-
-
-
-    
-   
-
-       
-    </style>
-</head>
-<body>   
-    
-        <div class="parents">
-            <header class="header">
-                <nav class="container-navbar">
-                    <div class="log">
-                        <a href="#"><img src="./imgs/logo.png" alt="logo"></a>
-                    </div>
-                    <ul class="menu">
-                        <li><a href="">Home</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Service</a></li>
-                        <li><a href="">Portfolio</a></li>
-                        <li><a href="">Team</a></li>
-                        <li><a href="">Testimonial</a></li>
-                        <li><a href="">Blog</a></li>
-                        <li><a href="">Conatct</a></li>
-                        <li><a id="componets" class="btn" href="">Components</a></li>
-                    </ul>
-                </nav>
-                    <h2>Small Team With Big Ideas</h2>                
-                    <h1>Creative Studio</h1> 
-                    <div class="main">
-                        <div id="div-1"><a href="">Our Service</a></div>
-                        <div id="div-2"><a href="">contact us</a></div>
-                    </div> 
-        </div>
-</body>
-</html>
+}
