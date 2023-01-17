@@ -9,7 +9,6 @@
     
 }
 .header{
-    font-size: ;
     background-image: url('./imgs/header.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,7 +19,6 @@
     position: relative;
 }
 .container-navbar {
-    text-align: ;
     display: flex;
     align-items: center;
     border: 1px solid rgba(170, 165, 165, 0.4);
@@ -82,7 +80,6 @@ h1{
 
 }
 .buttom{
-    margin-top: ;
     text-align: center;
     gap: 5px;
 }
@@ -232,10 +229,6 @@ h4{
     z-index: 2;
 
     
-}
-.parents_one{
-    
-   
 }
 .parents_one-img{
     width:100%;
