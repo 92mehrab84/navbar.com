@@ -132,11 +132,10 @@ div.main {
     background: #fff;
     width: 66%;
     height: 262px;
-    /* max-width: 1050; */
+   
     padding: 30px 0;
     margin: auto;
-    /* gap: 10px; */
-    /* max-height: 300px; */
+    
     border-radius: .15rem;
     z-index: 99;
     box-shadow: 2px 0 10px rgba(52,58,64,.2);
@@ -177,7 +176,7 @@ div.main {
     width: 360px;
     background-color: rgb(241, 149, 11);
     background: none;
-    /* margin: 0px 30px -100px 0px; */
+    
     border-left: 1px solid rgba(128, 128, 128,0.3);
     padding-top: 50px;
     
@@ -489,15 +488,8 @@ h4{
    
 
 }
-/* copy past */
-.widget-2 .widget-item {
-    border-right: 1px solid rgba(255,255,255,.1);
-    padding: 15px;
-    text-align: center;
-    width: calc(100%/4);
-    margin-top: 40px;
-    margin-bottom: 20px;
-}
+
+
 
 .back-seciton-pone{
     color: #969398;
@@ -521,15 +513,13 @@ h4{
 }
 .bord{
     border-right: 0.01px solid rgba(85, 72, 72,0.5);
-    /* text-align: center; */
+    
     margin-left: 3px;
     
 }
-.widget-2 .widget-item:last-child {
-    border-right: 0;
-}
+
 .simple-main{
-    /* display: flex; */
+   
     justify-content: center;
     text-align: center;
 }
@@ -586,7 +576,7 @@ h4{
     margin-left: 1px;
 }
 .small-p {
-    /* text-align: left; */
+    
     margin-left: 1px;
     margin-top: 7px;
     font-size: 22px;
@@ -608,12 +598,7 @@ width: 100%;
 height: 46vh;
 }
 .play-icon{
-    /* color: orange;
-    justify-content: space-evenly;
-     margin: 20px 20px; 
-     margin-top: 60px;
-    font-size: 100px;       
-    text-align: center;    */
+   
     display: flex;
     margin: 20px 20px;
     justify-content: space-evenly;
@@ -654,7 +639,7 @@ height: 46vh;
     margin: 3% auto 0;
     border-radius:.2rem;
     border: 0.01px solid rgba(128, 128, 128,0.4);
-    /* box-shadow: 2px 5px 35px rgba(173,181,189,.3),-2px -5px 10px rgba(173,181,189,.3); */
+   
 }
 .box-content-img{
     height: 200px;
